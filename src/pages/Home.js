@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import Modal from '../components/Modal.js'
 
 import '../styles/home.css';
 import mblabs from '../assets/images/mblabs.jpg';
@@ -9,18 +11,20 @@ import facebook from '../assets/Icons/icons8-facebook-white.svg'
 
 
 export function Home(){
+  const [isModalVisible, setModalVisible] = useState(false);
   return(
     <body className="home">
 
       <header className="homeHeader">
         <div className="containerHeader">
         <h1 className="logo">ShowHub</h1>
-        <button className="btn">Entrar</button>
+        <button className="btn" onClick={() => setModalVisible(true)}>Entrar</button>
+        {isModalVisible ? <Modal/>: null}
         </div>
       </header>
 
       <nav className="nav">
-        <button class="btnNav all">Todos</button>
+        <button class="btnNav all" >Todos</button>
         <button class="btnNav events">Eventos</button>
         <button class="btnNav shows">Shows</button>
       </nav>
