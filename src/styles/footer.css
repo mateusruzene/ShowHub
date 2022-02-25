@@ -1,0 +1,39 @@
+/* footer */
+.containerFooter{
+  width: 100%;
+  height: 12.5rem;
+  background-color: #63A4FF;
+}
+.contactSocial{
+  margin-left: 291px;
+  max-width: 782px;
+  height: 12.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  color: #fff;
+  font: 400 18px "Outfit", sans-serif;
+}
+.contact p {
+  font: 400 24px "Outfit", sans-serif;
+  margin-bottom: 0.8125rem ;
+}
+.socialMedia p {
+  font: 400 24px "Outfit", sans-serif;
+  margin-bottom: 0.8125rem ;
+}
+.icons{
+  margin-right:1.25rem;
+  height: 3rem;
+  width: 3rem;
+}
+.copy{
+  width: 100%;
+  height: 4.6rem;
+  background-color: #1976D2;
+  color:#fff;
+  font: 400 24px "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
