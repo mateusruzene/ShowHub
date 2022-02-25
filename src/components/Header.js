@@ -10,7 +10,10 @@ export function Header(){
         <div className="containerHeader">
         <h1 className="logo">ShowHub</h1>
         <button className="btn" onClick={() => setModalVisible(true)}>Entrar</button>
-        {isModalVisible ? <Modal/>: null}
+        {isModalVisible ? 
+        <Modal>
+          <button className="Close" onClick={() => setModalVisible(false)}>x</button>
+        </Modal>: null}
         </div>
       </header>
   )

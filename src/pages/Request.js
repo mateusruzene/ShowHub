@@ -3,18 +3,18 @@ import {Header} from '../components/Header'
 import {Footer} from '../components/Footer'
 
 import '../styles/request.css';
-import mblabs from '../assets/images/mblabs.jpg';
+import mblabs2 from '../assets/images/Rectangle 22.svg';
 
 export function Request(){
   return(
     <body className="home">
       <Header/>
       <main>
-        <div className='container'>
+        <div className='containerRequest'>
           <div className='containerImage'>
-            <img src={mblabs} alt='Imagem do evento/show'/>
+            <img src={mblabs2} alt='Imagem do evento/show'/>
           </div>
-          <div className='description'>
+          <div className='descriptionRequest'>
             <h2>Nome do Evento</h2>
             <p>Data e hora</p>
             <p>Endereço</p>
@@ -25,12 +25,24 @@ export function Request(){
             </div>
           </div>
         </div>
-        <div className='container'>
+        {/* <div className='containerRequest'>
           <div className='tickets'>
             <h2>Ingressos</h2>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+              <button></button>
+              <p></p>
+              <button></button>
+            </div>
+            <div>
+              <button></button>
+              <p></p>
+              <button></button>
+            </div>
+            <div>
+              <button></button>
+              <p></p>
+              <button></button>
+            </div>
           </div>
           <div className='typePayment'>
             <h2>Forma de Pagamento</h2>
@@ -43,7 +55,7 @@ export function Request(){
             <p>Após a confirmação da compra, você receberá o ingresso através do email, que deverá ser apresentado na hora do evento</p>
             <p>Total:<span>R$0,00</span></p>
           </div>
-        </div>
+        </div> */}
       </main>
       <Footer/>
     </body>
