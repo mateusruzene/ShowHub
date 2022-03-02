@@ -27,9 +27,18 @@ const Payment = () => {
       </div>
       <div className="total">
           <p>Total: <span>R$0,00</span></p>
-        </div>
+      </div>
     </div>
   )
 }
 
 export default Payment;
+{/* <div className='containerMain'>
+             <h2>Evento - MB Labs</h2>
+             <p>Dia 12/04/2022 - ás 14:30  </p>
+             <p>Rua Pedro da Silva , 456 - Campinas - SP</p>
+             <p>Duração: 2 horas e 30 minutos</p>
+             <div className='containerTickets'>
+               <span>Inteira: R$30.00</span>
+               <span>Meia: R$15.00</span>
+             </div> */}

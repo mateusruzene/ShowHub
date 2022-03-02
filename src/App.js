@@ -1,10 +1,14 @@
+import React from 'react';  
+import { BrowserRouter as Router, Route} from 'react-router-dom'
+
 import { Home } from './pages/Home';
-import { Request } from './pages/Request';
+import { Eventos } from './pages/Eventos';
+import { Shows } from './pages/Shows';
 
 
 function App() {
   return (
-    <Home></Home>
+    <Home/>
   );
 }
 
