@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import {Counter} from  './Counter';
 
 import '../styles/request.css'
 
@@ -23,21 +24,15 @@ const MbLabs = ({children}) => {
           <div className="ticket">
             <div className="addRemove">
               <h3>Inteira</h3>
-              <button className="minus">-</button>
-              <div className="amount">0</div>
-              <button className="plus">+</button>
+              <Counter></Counter>
             </div>
             <div className="addRemove">
               <h3>Meia</h3>
-              <button className="minus">-</button>
-              <div className="amount">0</div>
-              <button className="plus">+</button>
+              <Counter></Counter>
             </div>
             <div className="addRemove">
               <h3>Deficiente</h3>
-              <button className="minus">-</button>
-              <div className="amount">0</div>
-              <button className="plus">+</button>
+              <Counter></Counter>
             </div>
           </div>
           <p>Após a confirmação da compra, você receberá o ingresso através do email, 

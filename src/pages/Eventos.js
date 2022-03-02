@@ -21,9 +21,9 @@ export function Eventos(){
       <Header/>
       
       <nav className="nav">
-        <a id='todos' class="btnNav" href='http://localhost:3000/'>Todos</a>
-        <a id='eventos' class="btnNav active" href='http://localhost:3000/Eventos'>Eventos</a>
-        <a id='shows' class="btnNav" href='http://localhost:3000/Shows'>Shows</a>
+        <a id='todos' className="btnNav" href='http://localhost:3000/'>Todos</a>
+        <a id='eventos' className="btnNav active" href='http://localhost:3000/Eventos'>Eventos</a>
+        <a id='shows' className="btnNav" href='http://localhost:3000/Shows'>Shows</a>
       </nav>
 
       <main ection id='showEventos' className="main">

@@ -121,6 +121,9 @@
   border-radius: 1rem;
   text-align: center;
 }
+.ticket button:hover{
+  cursor: pointer;
+}
 .ticket .minus{
   background-color: red;
 }
@@ -134,6 +137,12 @@
 }
 .amount{
   font: 400 16px "Outfit", sans-serif;
+}
+
+.counter{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 /* Valor Total */
 

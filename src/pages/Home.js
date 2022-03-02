@@ -27,9 +27,9 @@ export default function Home(){
     <body className="home">
       <Header/>
       <nav className="nav">
-        <a id='todos' class="btnNav active" href='http://localhost:3000/'>Todos</a>
-        <a id='eventos' class="btnNav" href='http://localhost:3000/Eventos'>Eventos</a>
-        <a id='shows' class="btnNav" href='http://localhost:3000/Shows'>Shows</a>
+        <a id='todos' className="btnNav active" href='http://localhost:3000/'>Todos</a>
+        <a id='eventos' className="btnNav" href='http://localhost:3000/Eventos'>Eventos</a>
+        <a id='shows' className="btnNav" href='http://localhost:3000/Shows'>Shows</a>
       </nav>
 
       <main id='showEventos' className="main">
