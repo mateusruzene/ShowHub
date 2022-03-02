@@ -8,6 +8,11 @@
   align-items: center;
 }
 .btnNav{
+  text-decoration:none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #1976D2;
   color: #fff;
   font: 700 30px "Outfit", sans-serif;

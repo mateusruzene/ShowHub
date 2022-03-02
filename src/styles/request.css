@@ -1,4 +1,4 @@
-.payment{
+.request{
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
 }
-.containerPayment{
+.containerRequest{
   display: flex;
   flex-direction: row;
   background-color: #fff;
@@ -108,7 +108,6 @@
   color: #8D8D8D;
 }
 .ticket p{
-  width: 1rem;
   font: 400 16px "Outfit", sans-serif;
   text-align: center;
   color: #8D8D8D;
@@ -133,6 +132,9 @@
   flex-direction: row;
   gap: 1rem;
 }
+.amount{
+  font: 400 16px "Outfit", sans-serif;
+}
 /* Valor Total */
 
 .total{
@@ -148,16 +150,37 @@
   color: #63A4FF;
 }
 
-.close{
+.closeRequest{
   position: absolute;
-  top: 12rem;
-  left:40rem;
+  top: 12.3rem;
+  left:62.5rem;
   width: 1.5rem;
   height: 1.5rem;
   background-color: red;
   border-radius: 0.5rem;
 }
 
+.closeRequest:hover{
+  cursor: pointer;
+}
+
+.btnFinalizar{
+  position: absolute;
+  top: 30rem;
+  background-color: #004BA0;
+  color: #fff;
+  font: 700 18px "Outfit", sans-serif;
+  height: 40px;
+  width: 110px;
+  border-radius: 50px;
+  transition: ease-in 0.2s;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btnFinalizar:hover{
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.5));
+}
 
 @-webkit-keyframes scale-in-center {
   0% {

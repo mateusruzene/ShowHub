@@ -2,19 +2,19 @@ import React,{useState} from "react";
 
 import '../styles/request.css'
 
-const MbLabs = ({children}) => {
+const Google = ({children}) => {
   return (
-    <div className="request">
+    <div className="payment">
       {children}
-      <div className='containerRequest'>
+      <div className='containerPayment'>
         <div className="pay">
-          <h2>Evento - MB Labs</h2>
-          <p>Dia 12/04/2022 - <span>ás 14:30 </span></p>
-          <p>Rua Pedro da Silva , 456 - Campinas</p>
-          <p>Duração: 2 horas e 30 minutos</p>
+          <h2>Evento - Google </h2>
+          <p>Dia 22/05/2022 - <span>ás 8:30 </span></p>
+          <p>Av. Paulista, 123 - São Paulo</p>
+          <p>Duração: 3 horas</p>
           <div className="qrCode">
-            <span>Inteira: R$30.00</span>
-            <span>Meia: R$15.00</span>
+            <span>Inteira: R$80.00</span>
+            <span>Meia: R$40.00</span>
           </div>
         </div>
         <div className="bar"></div>
@@ -51,4 +51,4 @@ const MbLabs = ({children}) => {
   )
 }
 
-export default MbLabs;
+export default Google;
